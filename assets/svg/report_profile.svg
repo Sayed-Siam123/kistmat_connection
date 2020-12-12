@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38"
+     viewBox="0 0 38 38">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_296" data-name="Rectangle 296" width="38" height="38" transform="translate(93 251)"
+                  fill="#fff" stroke="#707070" stroke-width="1"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_45" data-name="Mask Group 45" transform="translate(-93 -251)" clip-path="url(#clip-path)">
+        <g id="Fake_profile" data-name="Fake profile" transform="translate(93 251)">
+            <g id="Group_371" data-name="Group 371">
+                <path id="Path_1661" data-name="Path 1661" d="M38,29.4l-6.754,5.219L30.592,38H38Z" fill="#17204d"/>
+            </g>
+            <path id="Path_1662" data-name="Path 1662" d="M33.666,27.985l-5.757,4.236L25.319,38h5.273L38,29.4Z"
+                  fill="#b33c24"/>
+            <path id="Path_1663" data-name="Path 1663" d="M29.035,26.441l-7.244,5.779L19,38h6.319l8.347-10.015Z"
+                  fill="#ffb64c"/>
+            <path id="Path_1664" data-name="Path 1664"
+                  d="M19,19.758H13.434v5.194l2.048,2.228L19,29.094l4.453-2.423,1.113-1.719V19.758Z" fill="#ffccb3"/>
+            <path id="Path_1665" data-name="Path 1665" d="M24.566,24.952V19.758H19v9.336l4.453-2.423Z" fill="#fb9"/>
+            <path id="Path_1666" data-name="Path 1666" d="M0,29.4V38H19l-2.791-5.779L8.965,26.441Z" fill="#283366"/>
+            <path id="Path_1667" data-name="Path 1667"
+                  d="M22.161,28.879,19,27.98l-3.285.977L13.4,31.546,19,38l5.6-6.454Z" fill="#d5e8fe"/>
+            <path id="Path_1668" data-name="Path 1668" d="M22.161,28.879,19,27.98V38l5.6-6.454Z" fill="#b5dbff"/>
+            <g id="Group_372" data-name="Group 372">
+                <path id="Path_1669" data-name="Path 1669" d="M13.434,24.952l-4.469,1.49,4.432,5.1L19,27.98Z"
+                      fill="#edf5ff"/>
+                <path id="Path_1670" data-name="Path 1670" d="M24.6,31.546l4.432-5.1-4.469-1.49L19,27.98Z"
+                      fill="#d5e8fe"/>
+            </g>
+            <path id="Path_1671" data-name="Path 1671"
+                  d="M21.227,0H8.98V1.113a7.982,7.982,0,0,0,2.227,5.529V12.32L19,10.372,24.566,8.98l2.227-2.227V5.641A5.637,5.637,0,0,0,21.227,0Z"
+                  fill="#ffb64c"/>
+            <path id="Path_1672" data-name="Path 1672"
+                  d="M26.793,6.754V5.641A5.637,5.637,0,0,0,21.227,0H19V10.372L24.566,8.98Z" fill="#ff9100"/>
+            <path id="Path_1673" data-name="Path 1673"
+                  d="M22.135,6.754A3.33,3.33,0,0,1,19,8.98H17.887V6.754H16.773a5.573,5.573,0,0,0-5.566,5.566V19a5.637,5.637,0,0,0,5.566,5.641h4.453A5.637,5.637,0,0,0,26.793,19V6.754Z"
+                  fill="#fdc"/>
+            <path id="Path_1674" data-name="Path 1674"
+                  d="M26.793,19V6.754H22.135A3.33,3.33,0,0,1,19,8.98v15.66h2.227A5.637,5.637,0,0,0,26.793,19Z"
+                  fill="#ffccb3"/>
+            <path id="Path_1675" data-name="Path 1675"
+                  d="M19,16.967a4.249,4.249,0,0,0-3.014,1.246l1.574,1.574a2.038,2.038,0,0,1,2.879,0l1.574-1.574A4.249,4.249,0,0,0,19,16.967Z"
+                  fill="#ffccb3"/>
+            <path id="Path_1676" data-name="Path 1676"
+                  d="M22.014,18.213A4.249,4.249,0,0,0,19,16.967v2.225a2.029,2.029,0,0,1,1.439.6Z" fill="#fb9"/>
+            <path id="Path_1677" data-name="Path 1677"
+                  d="M30.133,6.754H22.34v7.432a10.96,10.96,0,0,0,7.441,10.4l.352.117.352-.117A11.027,11.027,0,0,0,38,14.186V6.754Zm-3.34,4.453H29.02v2.227H26.793Zm3.34,7.6a4.249,4.249,0,0,1-3.014-1.246l1.574-1.574a2.038,2.038,0,0,0,2.879,0l1.574,1.574a4.249,4.249,0,0,1-3.014,1.246Zm3.34-5.373H31.246V11.207h2.227Z"
+                  fill="#edf5ff"/>
+            <path id="Path_1678" data-name="Path 1678"
+                  d="M38,14.186V6.754H30.133v9.828a2.029,2.029,0,0,0,1.439-.6l1.574,1.574a4.249,4.249,0,0,1-3.014,1.246V24.7l.352-.117A11.027,11.027,0,0,0,38,14.186Zm-6.754-.752V11.207h2.227v2.227Z"
+                  fill="#d5e8fe"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_300" data-name="Rectangle 300" width="38" height="38" transform="translate(246 536)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_48" data-name="Mask Group 48" transform="translate(-246 -536)" clip-path="url(#clip-path)">
+    <g id="other" transform="translate(246 536)">
+      <circle id="Ellipse_168" data-name="Ellipse 168" cx="18.182" cy="18.182" r="18.182" transform="translate(0.909 0.818)" fill="#cddcf0"/>
+      <g id="Group_387" data-name="Group 387">
+        <circle id="Ellipse_169" data-name="Ellipse 169" cx="4.364" cy="4.364" r="4.364" transform="translate(4.545 14.636)" fill="#a5bee2"/>
+        <circle id="Ellipse_170" data-name="Ellipse 170" cx="9.455" cy="9.455" r="9.455" transform="translate(9.636 9.545)" fill="#a5bee2"/>
+      </g>
+      <path id="Path_1705" data-name="Path 1705" d="M13.273,19A4.362,4.362,0,0,0,9.85,14.744a10.094,10.094,0,0,0,0,8.512A4.362,4.362,0,0,0,13.273,19Z" fill="#85a4d4"/>
+      <circle id="Ellipse_171" data-name="Ellipse 171" cx="3.636" cy="3.636" r="3.636" transform="translate(15.455 15.364)" fill="#fdda5f"/>
+      <circle id="Ellipse_172" data-name="Ellipse 172" cx="5.091" cy="5.091" r="5.091" transform="translate(27.091 0.818)" fill="#cddcf0"/>
+      <path id="Path_1706" data-name="Path 1706" d="M32.182,11.727a5.765,5.765,0,0,0,3.713-1.373A18.967,18.967,0,0,0,27.737,2.2a5.788,5.788,0,0,0,4.445,9.531Z" fill="#a5bee2"/>
+      <circle id="Ellipse_173" data-name="Ellipse 173" cx="2.182" cy="2.182" r="2.182" transform="translate(30 3.727)" fill="#ea7a26"/>
+      <circle id="Ellipse_174" data-name="Ellipse 174" cx="2.182" cy="2.182" r="2.182" transform="translate(6.727 16.818)" fill="#3a71b2"/>
+      <g id="Group_388" data-name="Group 388">
+        <path id="Path_1707" data-name="Path 1707" d="M38,5.909A5.8,5.8,0,0,0,27.675,2.271a18.929,18.929,0,1,0,8.089,8.191A5.783,5.783,0,0,0,38,5.909ZM32.182,1.545a4.364,4.364,0,1,1-2.521,7.913l1.052-1.052a2.88,2.88,0,0,0,1.469.412,2.909,2.909,0,1,0-2.909-2.909,2.88,2.88,0,0,0,.412,1.469L28.633,8.43a4.35,4.35,0,0,1,3.549-6.884ZM30.727,5.909a1.455,1.455,0,1,1,1.455,1.455A1.456,1.456,0,0,1,30.727,5.909ZM36.364,19A17.455,17.455,0,1,1,18.909,1.545a17.259,17.259,0,0,1,7.975,1.983A5.705,5.705,0,0,0,27.6,9.46l-1.851,1.851A10.135,10.135,0,0,0,9.36,16.137a2.871,2.871,0,0,0-.451-.046,2.91,2.91,0,1,0,.452,5.772,10.161,10.161,0,1,0,17.42-9.524l1.851-1.851a5.729,5.729,0,0,0,5.869.753A17.278,17.278,0,0,1,36.364,19Zm-26,0a1.455,1.455,0,1,1-1.455-1.455A1.456,1.456,0,0,1,10.364,19Zm.333-2.279a8.69,8.69,0,0,1,14.024-4.379l-3.108,3.108a4.385,4.385,0,1,0,1.028,1.028l3.108-3.108A8.713,8.713,0,1,1,10.7,21.279a2.877,2.877,0,0,0,0-4.559ZM22,19a2.909,2.909,0,1,1-2.909-2.909A2.912,2.912,0,0,1,22,19Z" fill="#010101"/>
+        <circle id="Ellipse_175" data-name="Ellipse 175" cx="1.455" cy="1.455" r="1.455" transform="translate(17.636 17.545)" fill="#010101"/>
+      </g>
+    </g>
+  </g>
+</svg>
