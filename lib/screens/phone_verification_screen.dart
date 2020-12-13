@@ -54,7 +54,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                                 minWidth: 88.0, minHeight: 50.0),
                             alignment: Alignment.center,
                             child: CenterText(
-                                text: "Continue",
+                                text: "Verify",
                                 textColor: Colors.white,
                                 fontSize: 18),
                           ),

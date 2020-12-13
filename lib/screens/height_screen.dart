@@ -89,8 +89,8 @@ class _HeightScreenState extends State<HeightScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "How tall are you?",
                             textColor: Colors.black,
-                            fontSize: 16),
-                        SizedBox(height: 10),
+                            fontSize: fontsize2),
+                        SizedBox(height: 20),
                         Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.start,

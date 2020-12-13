@@ -89,7 +89,7 @@ class _ReligionScreenState extends State<ReligionScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "What is your religion?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 30),
                         CustomDropDown(
                           text: "Select your religion",
@@ -125,8 +125,9 @@ class _ReligionScreenState extends State<ReligionScreen> {
 }
 
 class CustomDropDown extends StatefulWidget {
-  CustomDropDown(
-      {this.text, this.items, this.selectedValue, this.selectedCountry});
+
+
+  CustomDropDown({this.text, this.items, this.selectedValue, this.selectedCountry});
 
   String text;
   List<DropDownItem> items;

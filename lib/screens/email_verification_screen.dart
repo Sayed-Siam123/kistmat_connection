@@ -66,7 +66,7 @@ Don't forget to check SPAM box.
                                   minWidth: 88.0, minHeight: 50.0),
                               alignment: Alignment.center,
                               child: CenterText(
-                                  text: "Continue",
+                                  text: "Verify",
                                   textColor: Colors.white,
                                   fontSize: 18),
                             ),

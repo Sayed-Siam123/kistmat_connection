@@ -97,7 +97,7 @@ class _LoginWithPhoneScreenState extends State<LoginWithPhoneScreen> {
                         CenterText(
                             text: terms,
                             textColor: Colors.black,
-                            fontSize: 16,
+                            fontSize: fontsize2-5,
                             textStyle: GoogleFonts.poppins(),
                             isCenter: false),
                       ],

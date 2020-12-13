@@ -94,7 +94,7 @@ class _AboutScreenState extends State<AboutScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "Tell us something about you",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 20),
                         Expanded(
                             child: Container(

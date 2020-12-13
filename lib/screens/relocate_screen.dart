@@ -93,7 +93,7 @@ class _ReclocateScreenState extends State<ReclocateScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "Willing to relocate?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 20),
                         Expanded(
                             child: ListView.builder(

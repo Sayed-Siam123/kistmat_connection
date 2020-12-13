@@ -90,7 +90,7 @@ class _EthnicOriginScreenState extends State<EthnicOriginScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "What's your ethnic origin?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 30),
                         CustomDropDown(
                           text: "Select your country",

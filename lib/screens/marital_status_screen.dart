@@ -93,7 +93,7 @@ class _MaritalStatusScreenState extends State<MaritalStatusScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "What's your marital status?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 20),
                         Expanded(
                             child: ListView.builder(

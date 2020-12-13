@@ -50,13 +50,13 @@ class _AccountRecoveryState extends State<AccountRecovery> {
                     isBold: true,
                     text: "Account Recovery",
                     textColor: Colors.black,
-                    fontSize: 22),
+                    fontSize: fontsize2),
               ),
               SizedBox(height: 10),
               Center(
                 child: CenterText(
                     isCenter: true,
-                    isBold: true,
+                    isBold: false,
                     text: "Lost access to your email or Facebook account?",
                     textColor: Colors.black,
                     fontSize: 14),
@@ -64,7 +64,7 @@ class _AccountRecoveryState extends State<AccountRecovery> {
               SizedBox(height: 10),
               Center(
                 child: CenterText(
-                    isBold: true,
+                    isBold: false,
                     isCenter: true,
                     text:
                         "Not to worry, we can help you log in with your phone number.",

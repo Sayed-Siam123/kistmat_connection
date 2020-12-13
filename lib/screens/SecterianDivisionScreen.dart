@@ -85,13 +85,16 @@ class _SecterianDivisionState extends State<SecterianDivision> {
                         SvgPicture.asset("assets/svg/sectarian_division.svg",
                             width: svgSize, height: svgSize),
                         SizedBox(height: 20),
-                        CenterText(
-                            isBold: true,
-                            isCenter: true,
-                            textStyle: GoogleFonts.poppins(),
-                            text: "Select your sectarian division",
-                            textColor: Colors.black,
-                            fontSize: 16),
+                        FittedBox(
+                          fit: BoxFit.contain,
+                          child: CenterText(
+                              isBold: true,
+                              isCenter: true,
+                              textStyle: GoogleFonts.poppins(),
+                              text: "Select your sectarian division",
+                              textColor: Colors.black,
+                              fontSize: fontsize2),
+                        ),
                         SizedBox(height: 30),
                         CustomDropDown(
                           text: "Sectarian division",

@@ -30,12 +30,9 @@ class AppCacheImage extends StatelessWidget {
         height: height,
         fit: BoxFit.cover,
         imageUrl: imageUrl,
-        placeholder: (context, url) => Container(
-            width: height,
-            height: height,
-            child: NativeProgress(
-              showNative: this.showNative ?? false,
-            )),
+        placeholder: (context, url) => NativeProgress(
+          showNative: this.showNative ?? false,
+        ),
         errorWidget: (context, url, error) => imageFailWidget == null
             ? Icon(Icons.image, size: 0.80 * width.toDouble())
             : imageFailWidget,

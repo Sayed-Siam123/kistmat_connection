@@ -326,44 +326,76 @@ class _HomeScreenState extends State<HomeScreen> {
                             showBlockedDialog();
                           }, secondButtonText: "NO", secondCallback: () {});
                         },
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            SvgPicture.asset(
-                              "assets/svg/block.svg",
-                              width: 30,
-                              height: 30,
-                            ),
-                            SizedBox(width: 10),
-                            CenterText(
-                                text: "Block Shivani",
-                                textColor: Colors.black,
-                                fontSize: 16)
-                          ],
+                        child: Container(
+                          margin: const EdgeInsets.fromLTRB(40, 0, 40, 0),
+                          height: 35,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.all(Radius.circular(5)),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.grey.shade300.withOpacity(.8),
+                                  blurRadius: 10,
+                                  offset: Offset(1,1),
+                                  spreadRadius: 3,
+                                ),
+                              ]
+                          ),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              SvgPicture.asset(
+                                "assets/svg/block.svg",
+                                width: 25,
+                                height: 25,
+                              ),
+                              SizedBox(width: 10),
+                              CenterText(
+                                  text: "Block Shivani",
+                                  textColor: Colors.black,
+                                  fontSize: 16)
+                            ],
+                          ),
                         ),
                       ),
-                      SizedBox(height: 20),
+                      SizedBox(height: 15),
                       InkWell(
                         onTap: () {
                           Navigator.pop(context);
                           showReporTypeDialog();
                         },
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            SvgPicture.asset(
-                              "assets/svg/report.svg",
-                              width: 30,
-                              height: 30,
-                            ),
-                            SizedBox(width: 10),
-                            CenterText(
-                                text: "Report Shivani",
-                                textColor: Colors.black,
-                                fontSize: 16),
-                          ],
+                        child: Container(
+                          margin: const EdgeInsets.fromLTRB(40, 0, 40, 0),
+                          height: 35,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.all(Radius.circular(5)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.grey.shade300.withOpacity(.8),
+                                blurRadius: 10,
+                                offset: Offset(1,1),
+                                spreadRadius: 3,
+                              ),
+                            ]
+                          ),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              SvgPicture.asset(
+                                "assets/svg/report.svg",
+                                width: 25,
+                                height: 25,
+                              ),
+                              SizedBox(width: 10),
+                              CenterText(
+                                  text: "Report Shivani",
+                                  textColor: Colors.black,
+                                  fontSize: 16),
+                            ],
+                          ),
                         ),
                       )
                     ],
@@ -424,58 +456,67 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontSize: 16,
                           ),
                           SizedBox(height: 20),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              ReportItem(
-                                text: "Fake/Spam\nProfile",
-                                path: "assets/images/report1_user.png",
-                                onClick: () {
-                                  Navigator.pop(context);
-                                  showRepormessageDialog();
-                                },
-                              ),
-                              ReportItem(
-                                text: "Inappropriate\nMessages",
-                                path: "assets/images/report2_user.png",
-                                onClick: () {},
-                              )
-                            ],
+                          FittedBox(
+                            fit: BoxFit.contain,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                ReportItem(
+                                  text: "Fake/Spam\nProfile",
+                                  path: "assets/images/report1_user.png",
+                                  onClick: () {
+                                    Navigator.pop(context);
+                                    showRepormessageDialog();
+                                  },
+                                ),
+                                ReportItem(
+                                  text: "Inappropriate\nMessages",
+                                  path: "assets/images/report2_user.png",
+                                  onClick: () {},
+                                )
+                              ],
+                            ),
                           ),
                           SizedBox(height: 20),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              ReportItem(
-                                text: "Inappropriate\nPhotos",
-                                path: "assets/images/report3_user.png",
-                                onClick: () {},
-                              ),
-                              ReportItem(
-                                text: "Inappropriate\nBio",
-                                path: "assets/images/report4_user.png",
-                                onClick: () {},
-                              )
-                            ],
+                          FittedBox(
+                            fit: BoxFit.contain,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                ReportItem(
+                                  text: "Inappropriate\nPhotos",
+                                  path: "assets/images/report3_user.png",
+                                  onClick: () {},
+                                ),
+                                ReportItem(
+                                  text: "Inappropriate\nBio",
+                                  path: "assets/images/report4_user.png",
+                                  onClick: () {},
+                                )
+                              ],
+                            ),
                           ),
                           SizedBox(height: 20),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              ReportItem(
-                                text: "Underage",
-                                path: "assets/images/report5_user.png",
-                                onClick: () {},
-                              ),
-                              ReportItem(
-                                text: "Something else",
-                                path: "assets/images/report6_user.png",
-                                onClick: () {},
-                              )
-                            ],
+                          FittedBox(
+                            fit: BoxFit.contain,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                ReportItem(
+                                  text: "Underage",
+                                  path: "assets/images/report5_user.png",
+                                  onClick: () {},
+                                ),
+                                ReportItem(
+                                  text: "Something else",
+                                  path: "assets/images/report6_user.png",
+                                  onClick: () {},
+                                )
+                              ],
+                            ),
                           ),
                         ],
                       ),
@@ -1040,6 +1081,7 @@ class ReportItem extends StatelessWidget {
       child: Column(
         children: [
           Container(
+            margin: const EdgeInsets.all(10),
             width: 130,
             height: 110,
             child: Center(child: Image.asset(this.path, width: 90, height: 90)

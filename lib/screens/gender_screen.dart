@@ -89,7 +89,7 @@ class _GenderScreenState extends State<GenderScreen> {
                               textStyle: GoogleFonts.poppins(),
                               text: "Specify your gender",
                               textColor: Colors.black,
-                              fontSize: 16),
+                              fontSize: fontsize2),
                           SizedBox(height: 20),
                           Row(
                             children: [

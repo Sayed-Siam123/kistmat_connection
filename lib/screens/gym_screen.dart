@@ -93,7 +93,7 @@ class _GymScreenState extends State<GymScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "How often do you exercise?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 20),
                         Expanded(
                             child: ListView.builder(

@@ -14,6 +14,8 @@ const kGreyColor = Color(0xFFCBCBCB);
 const double signUpIconSize = 80;
 const double svgSize = 70;
 const double fontSize = 16;
+const double fontsize2 = 20;
+
 
 
 Color blue = HexColor("#05C5D9");

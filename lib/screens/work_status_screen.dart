@@ -90,7 +90,7 @@ class _WorkStatusScreenState extends State<WorkStatusScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "What do you do for living?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 30),
                         CustomDropDown(
                           text: "Select your career",

@@ -92,7 +92,7 @@ class _AddPhotosScreenState extends State<AddPhotosScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "Add Photos",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2-1),
                         CenterText(
                             isCenter: true,
                             textStyle: GoogleFonts.poppins(),

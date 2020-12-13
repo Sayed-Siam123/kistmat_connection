@@ -93,7 +93,7 @@ class _ChildrenScreenState extends State<ChildrenScreen> {
                             textStyle: GoogleFonts.poppins(),
                             text: "Do you have any children's?",
                             textColor: Colors.black,
-                            fontSize: 16),
+                            fontSize: fontsize2),
                         SizedBox(height: 20),
                         Expanded(
                             child: ListView.builder(

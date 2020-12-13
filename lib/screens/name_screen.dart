@@ -91,7 +91,7 @@ class _NameScreenState extends State<NameScreen> {
                               textStyle: GoogleFonts.poppins(),
                               text: "What's your name?",
                               textColor: Colors.black,
-                              fontSize: 16),
+                              fontSize: fontsize2),
                           SizedBox(height: 20),
                           InputContainer(
                             showBorder: true,

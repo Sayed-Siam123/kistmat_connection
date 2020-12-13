@@ -96,12 +96,15 @@ class _EducationScreenState extends State<EducationScreen> {
                         SvgPicture.asset("assets/svg/edu_cap.svg",
                             width: svgSize, height: svgSize),
                         SizedBox(height: 20),
-                        CenterText(
-                            isBold: true,
-                            textStyle: GoogleFonts.poppins(),
-                            text: "What's your education level?",
-                            textColor: Colors.black,
-                            fontSize: 16),
+                        FittedBox(
+                          fit: BoxFit.contain,
+                          child: CenterText(
+                              isBold: true,
+                              textStyle: GoogleFonts.poppins(),
+                              text: "What's your education level?",
+                              textColor: Colors.black,
+                              fontSize: fontsize2),
+                        ),
                         SizedBox(height: 20),
                         Expanded(
                             child: ListView.builder(
